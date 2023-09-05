@@ -1,5 +1,5 @@
-#Color picker uitility 
-#this tool alows you to pick the right HSV values for each color
+#Color picker utility 
+#this tool allows you to pick the right HSV values for each color
 
 
 #How it works
@@ -7,17 +7,17 @@
 #1) take the path to the desired image from the terminal by adding the argument -p then the full path
 #2) import the image
 #3) create track bars for the HSV upper and lower
-#4) create mosue callback
-#5) the feedback loop takes the left click and get the HSV pixel value of that postion
+#4) create mouse callback
+#5) the feedback loop takes the left click and get the HSV pixel value of that position
 #6) those HSV values adjust the Track bars values
 #7) create a mask from the ranges
 
 #########Important note######
 #PLEASE MAKE SURE THAT YOU ARE USING THE SAME MASKING METHOD BEFORE TRYING THE VALUES IN OTHER PROJECTS 
-#BY DEFUALT THE FOLLOWING IS USED 
+#BY DEFAULT THE FOLLOWING IS USED 
 #GaussinBlure (5,5)
 #erode (7,7)
-#deilate(7,7)
+#dealate(7,7)
 
 import argparse
 import cv2
